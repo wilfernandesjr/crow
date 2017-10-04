@@ -1,0 +1,25 @@
+{
+  "name": "crow",
+  "version": "1.0.0",
+  "description": "Crow is a lightful module to send emails through different strategies.",
+  "main": "lib/crow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilfernandesjr/crow.git"
+  },
+  "keywords": [
+    "email",
+    "mail",
+    "mailer",
+    "nodemailer"
+  ],
+  "author": "Wil Fernandes <wilmar.wfsj@gmail.com> (http://wilfernandes.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilfernandesjr/crow/issues"
+  },
+  "homepage": "https://github.com/wilfernandesjr/crow#readme"
+}
