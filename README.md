@@ -26,7 +26,7 @@ const crow = require('crow-emissary')(Sendgrid);
 
 let settings = {
 	fromName: 'Michel Fora Temer',
-	fromEmail: 'michel@foratemer.org.br,
+	fromEmail: 'michel@foratemer.org.br',
 	toEmail: 'joesley@jbs.com.br',
 	subject: 'Tem que manter isso, viu?!',
 	type: 'plain/text',
