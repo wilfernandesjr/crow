@@ -1,6 +1,6 @@
 {
   "name": "crow-emissary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crow is a lightful module to send emails through different strategies.",
   "main": "lib/crow.js",
   "scripts": {
