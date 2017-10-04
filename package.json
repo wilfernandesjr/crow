@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/wilfernandesjr/crow/issues"
   },
-  "homepage": "https://github.com/wilfernandesjr/crow#readme"
+  "homepage": "https://github.com/wilfernandesjr/crow#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.126.0",
+    "handlebars": "^4.0.10",
+    "sendgrid": "^5.2.3"
+  }
 }
