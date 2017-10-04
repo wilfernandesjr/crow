@@ -1,5 +1,5 @@
 {
-  "name": "crow",
+  "name": "crow-emissary",
   "version": "1.0.0",
   "description": "Crow is a lightful module to send emails through different strategies.",
   "main": "lib/crow.js",
@@ -11,6 +11,10 @@
     "url": "git+https://github.com/wilfernandesjr/crow.git"
   },
   "keywords": [
+    "crow",
+    "sendgrid",
+    "aws-ses",
+    "emissary",
     "email",
     "mail",
     "mailer",
