@@ -70,8 +70,8 @@ crow.send(settings);
   
 ## Issues
 
-If you find any kind of issue, please feel free to **report** at [**issue**](https://github.com/wilfernandesjr/crow/issues) so I can correct it.  
-And, of course, you all are welcome to make a [**pull request**](https://github.com/wilfernandesjr/crow/pulls).  
+If you find any kind of issue, please feel free to **report** an [**issue**](https://github.com/wilfernandesjr/crow/issues) so I can correct it.  
+And, of course, you are always welcome to make a [**pull request**](https://github.com/wilfernandesjr/crow/pulls).  
 
 ## Next Steps
 
