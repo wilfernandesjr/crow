@@ -17,20 +17,20 @@ npm install crow-emissary --save
 
 Then you add it into your application, with the strategy that you want to use to send emails.
 
-(Example with Sendgrid Strategie):
+(Example with Sendgrid Strategy):
 ```javascript
-const strategies = process.cwd() + '/node_modules/crow-emissary/lib/strategies/';
-const Sendgrid = require(strategies + 'Sendgrid')(process.env.SENDGRID_API_KEY);
+const Sendgrid = require('crow-emissary/lib/strategies/Sendgrid')(process.env.SENDGRID_API_KEY);
 const crow = require('crow-emissary')(Sendgrid);
+
 ...
 
 let settings = {
-	fromName: 'Michel Fora Temer',
+	fromName: 'Michel Temer',
 	fromEmail: 'michel@foratemer.org.br',
 	toEmail: 'joesley@jbs.com.br',
 	subject: 'Tem que manter isso, viu?!',
-	type: 'plain/text',
-	content: 'É, cuidado, vai com cuidado. [inaudível] Não parecer obstrução da Justiça [inaudível].'
+	type: 'text/html',
+	content: '<strong>É, cuidado, vai com cuidado. Com cuidado pra não parecer obstrução da Justiça</strong>'
 }
 crow.send(settings);
 ```
@@ -49,4 +49,4 @@ And, of course, you all are welcome to make a [**pull request**](https://github.
 * Refactor the way of import strategies;
 * Implement Unit Tests;
 * Implement more strategies;
-* Increase the funcionality of use template engines to compile html emails from model;
+* Increase the feature of use template engines to compile html emails from model;
