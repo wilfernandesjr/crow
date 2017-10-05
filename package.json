@@ -4,7 +4,7 @@
   "description": "Crow is a lightful module to send emails through different strategies.",
   "main": "lib/crow.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
     "url": "https://github.com/wilfernandesjr/crow/issues"
   },
   "homepage": "https://github.com/wilfernandesjr/crow#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
   "dependencies": {
     "aws-sdk": "^2.126.0",
     "handlebars": "^4.0.10",
