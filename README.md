@@ -4,7 +4,7 @@ Crow Emissary is a simple module to send emails through different strategies.
 
 #### Warning
 
-This module is very beta and should not be used in production yet. Feel free to contribute if you liked the idea.
+This module is trully beta and should be used carefully in production. Feel free to contribute if you liked the idea.
 
 
 ## Getting Started
